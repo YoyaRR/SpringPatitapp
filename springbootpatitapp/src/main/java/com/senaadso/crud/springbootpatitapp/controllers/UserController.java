@@ -117,6 +117,7 @@ public class UserController {
             model.addAttribute("user", user);
 
             user.setNombre(userDTO.getNombre());
+            user.setUsuario(userDTO.getUsuario());
             user.setCedula(userDTO.getCedula());
             user.setDireccion(userDTO.getDireccion());
             user.setEmail(userDTO.getEmail());
